@@ -3,6 +3,6 @@ defmodule TestElixirTest do
   doctest TestElixir
 
   test "the truth" do
-    assert 1 + 1 == 2
+    assert TestElixir.add(1, 1) == 2
   end
 end
